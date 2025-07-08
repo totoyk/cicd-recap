@@ -7,6 +7,6 @@ files:
 
 hooks:
   AfterInstall:
-    - location: /home/ec2-user/app/build.sh
+    - location: build.sh
       timeout: 30
       runas: ec2-user
