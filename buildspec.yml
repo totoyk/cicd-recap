@@ -3,7 +3,7 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo "Target group: $DEPLOY_TARGET"
+      - echo Target group: $DEPLOY_TARGET
       - cp appspec/$DEPLOY_TARGET/appspec.yml appspec.yml
 
 artifacts:
