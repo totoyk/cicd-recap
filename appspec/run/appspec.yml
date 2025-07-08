@@ -3,7 +3,7 @@ os: linux
 
 files:
   - source: /
-    destination: /home/ec2-user/app/tset_run
+    destination: /home/ec2-user/app/test_run
 
 hooks:
   AfterInstall:
