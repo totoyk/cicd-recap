@@ -1,0 +1,12 @@
+version: 0.0
+os: linux
+
+files:
+  - source: /
+    destination: /home/ec2-user/app/test_build
+
+hooks:
+  AfterInstall:
+    - location: build.sh
+      timeout: 30
+      runas: ec2-user
